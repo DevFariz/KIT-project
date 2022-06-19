@@ -1,0 +1,137 @@
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left {
+    flex-basis: 45%;
+}
+
+.form {
+    flex-basis: 55%;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #262626;
+    margin-bottom: 35px;
+}
+
+.blue {
+    color: #3272F6;
+}
+
+.description {
+    font-weight: 300;
+    font-size: 23px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #262626;
+    opacity: 0.7;
+    margin-bottom: 50px;
+}
+
+.description span {
+    background: url('../../images/textCircle.svg') no-repeat;
+    background-size: cover;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.text {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 33px;
+    text-transform: uppercase;
+}
+
+.form {
+    flex-basis: 54%;
+    padding: 40px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.formTop {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.formTitle {
+    flex-basis: 50%;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #262626;
+}
+
+.formText {
+    flex-basis: 50%;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    color: #262626;
+    opacity: 0.6;
+}
+
+.formMiddle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.inp{
+    flex-basis: 48%;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 40px;
+}
+
+.inp::placeholder{
+    opacity: 0.5;
+}
+
+.formBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn{
+    flex-basis: 49%;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: linear-gradient(180deg, #2A6FFF 0%, #024EEA 100%);
+    border-radius: 40px;
+    border: none;
+    padding: 25px 62px;
+}
+
+.socials{
+    flex-basis: 49%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    background: #3272F6;
+    border-radius: 50%;
+}
