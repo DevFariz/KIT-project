@@ -1,0 +1,19 @@
+.cases__container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 55px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #262626;
+    margin-bottom: 50px;
+}
+
+.title span{
+    color: #3272F6;
+}
